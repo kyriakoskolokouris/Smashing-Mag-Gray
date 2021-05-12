@@ -3,6 +3,10 @@
   margin: 0;
 }
 
+html {
+  zoom: 67%;
+}
+
 body {
   box-sizing: border-box;
   /* overflow-x: hidden; */
