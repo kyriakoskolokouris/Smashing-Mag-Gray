@@ -30,7 +30,7 @@ nav {
 
 .top-menu-items {
   cursor: pointer;
-  padding: 10px 10px 3px 10px;
+  padding: 7px 7px 3px 7px;
 }
 
 .top-menu-items:hover {
@@ -83,7 +83,7 @@ input {
   font-size: 20px;
   font-weight: 500;
   font-family: Montserrat;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(41, 34, 34, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .sub-menu-items {
@@ -202,14 +202,23 @@ aside {
 }
 
 aside .btn {
+  font-family: monospace;
   background-color: white;
   color: red;
-  margin: 220px 150px 70px 150px;
+  margin: 220px 150px 75px 150px;
   padding: 14px;
-  font-size: 24px;
+  font-size: 20px;
   border-radius: 10%;
   text-align: center;
-  font-weight: 900;
+  font-weight: 600;
+  box-shadow: 0 4px 8px 0 rgb(114, 40, 40), 0 6px 20px 0 rgba(177, 78, 78, 0.19);
+  cursor: pointer;
+
+}
+
+aside .btn:hover{
+  background: red;
+  color: antiquewhite;
 }
 
 aside section {
@@ -248,12 +257,18 @@ input-area {
   color: rgb(255, 255, 255);
   font-size: 17px;
   font-weight: bold;
-  background-color: rgb(104, 104, 114);
+  background-color: rgb(124, 124, 199);
   position: absolute;
   border-radius: 22px;
-  bottom: -22.5%;
+  bottom: -22.2%;
   left: 83%;
-  
+  cursor: pointer;
+}
+
+.input-btn:hover {
+  background-color: rgb(81, 81, 172);
+  color: gold;
+
 }
 
 
@@ -261,8 +276,8 @@ input-area {
 
 #lp {
   padding: 40px 30px;
-  font-size: 28px;
-  letter-spacing: 2px;
+  font-size: 34px;
+  letter-spacing: 8px;
   font-family: Lobster;
   padding-bottom: 15px;
   text-align: center;
@@ -273,7 +288,7 @@ input-area {
 }
 
 .product {
-  font-size: 15px;
+  font-size: 12px;
   font-family: Montserrat;
   border: 40px solid #f3f4f7;
   background-color: rgb(236, 229, 217);
@@ -312,12 +327,13 @@ code {
 
 #two {
   background: linear-gradient(to bottom right, rgb(173, 173, 169), rgb(246, 235, 246));
+  width: 339px;
 }
 
 #three {
   background: linear-gradient(to top left, rgb(169, 173, 171), rgb(246, 235, 237));
   text-align: justify;
-  width: 367px;
+  width: 339px;
 }
 
 .product > h2 {
@@ -341,25 +357,28 @@ code {
   color: rgb(196, 214, 192);
   font-size: 23px;
   font-weight: 500;
+  cursor: pointer;
+
 }
 
 .product > button:hover {
   background-color: #0c0c0c;
+ color: blanchedalmond 
 
 }
 /* GUIDES */
 .guides {
   font-size: 24px;
   padding: 7px 30px;
-  margin: 70px 27%;
-  border-bottom: 6px gray solid;
+  margin: 70px 38%;
+  border-bottom: 4px rgb(22, 22, 22) solid;
   text-align: center;
   cursor: pointer;
 }
 
 .guides:hover {
   color: rgb(85, 75, 51);
-  background-color: rgb(252, 252, 149) ;
+  background-color:blanchedalmond ;
 }
 /* FOOTER */
  footer {
@@ -370,7 +389,7 @@ code {
 .flex-area {
   text-align: center;
   padding: 40px 7px 7px 7px;
-  color: rgb(255, 255, 255);
+  color: rgb(255, 223, 154);
   font-size: 19px;
   text-decoration: none;
 }
@@ -394,16 +413,16 @@ footer a {
   color: rgb(241, 214, 214);
   text-decoration: none;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 22px;
+  font-size: 24px;
   padding: auto 56px;
 }
 
 footer a:hover {
-  color: pink;
+  color: rgb(243, 171, 183);
 }
 
 .bottom-area {
-  font-size: 24px;
+  font-size: 20px;
   color:blanchedalmond;
   text-align: center;
   padding: 30px;
