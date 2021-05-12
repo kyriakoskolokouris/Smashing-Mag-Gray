@@ -274,13 +274,11 @@ input-area {
 
 .product {
   font-size: 15px;
-  font-family: PT-Sans;
-  letter-spacing: 2px;
+  font-family: Montserrat;
   border: 40px solid #f3f4f7;
   background-color: rgb(236, 229, 217);
-  color: #000000;
+  color: #383333;
   display: inline-block;
-  align-items: center;
   text-align: justify;
   width: calc(65% / 3);
   height: 500px;
@@ -297,12 +295,12 @@ code {
 
 .product > .level {
   background-color: #f5edf1d0;
-  color: rgb(0, 0, 0);
+  color: rgb(80, 78, 78);
   padding: 25px 0;
   width: 100%;
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 28px;
   font-family: Georgia, "Times New Roman", Times, serif;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
