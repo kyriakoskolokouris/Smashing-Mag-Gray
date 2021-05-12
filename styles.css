@@ -242,7 +242,7 @@ input-area {
 
 .input-btn {
   width: 60px;
-  height: 23px;
+  height: 9px;
   padding: 20px;
   display: inline;
   color: rgb(255, 255, 255);
@@ -251,8 +251,8 @@ input-area {
   background-color: rgb(104, 104, 114);
   position: absolute;
   border-radius: 22px;
-  bottom: 1.9%;
-  right: 8.5%;
+  bottom: -22.5%;
+  left: 83%;
   
 }
 
